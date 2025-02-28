@@ -25,7 +25,7 @@ t_final = 13000
 m = 0.4
 theta = 0.45 # Determined using chi-analysis
 n = m/theta
-K = 5E-6 #3E-5
+K = 1E-6 #3E-5
 
 # Basin parameters
 # Varying slope S and area A for each node
@@ -79,7 +79,7 @@ plt.ylim(0,(np.max(zz)+0.1*np.max(zz)))
 plt.show()
 
 
-
+#%% Export variables
 
 
 
